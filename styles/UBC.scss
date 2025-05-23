@@ -1,0 +1,195 @@
+// ~~~
+// UBC Presentation Theme
+// ~~~
+
+/*-- scss:rules --*/
+
+// Fonts
+$font-family-sans-serif: "Open Sans", "Helvetica Neue", sans-serif !default;
+$font-family-serif: "Merriweather", "Georgia", serif !default;
+$heading-font: $font-family-serif !default;
+
+// Colors
+$white: #fff !default;
+$ubc-blue: #002145 !default;
+$ubc-secondary: #0055b7 !default;
+$ubc-tertiary: #40b4e5 !default;
+$transparent:  rgb(0 0 0 / 0%);
+
+// Presentation-wide changes
+.reveal {
+  font-family: $font-family-sans-serif;
+  background-color: $white;
+  color: $ubc-blue;
+  font-kerning: normal;
+  line-height: 140%;
+}
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  font-family: $font-family-serif;
+  color: $ubc-blue;
+}
+.reveal a {
+  color: $ubc-secondary;
+}
+.reveal .break{
+  height: 4px;
+  width: 50vw;
+  color: $ubc-tertiary;
+  background-color:$ubc-tertiary
+}
+.reveal .slides {
+ width: 960px !important;
+ height: 700px !important;
+}
+
+
+// Title Slide
+.reveal .intro-slide {
+  background-image: url("images/title-slide.jpg");
+  background-color: $ubc-blue;
+  background-size: cover;
+  background-position-y: center;
+ .main-title, .authors, .upper, .lower {
+    background-color: $white;
+    background-image: none;
+    color: $ubc-blue;
+    width: 40vw;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0;
+  }
+  .banner {
+    position: absolute;
+    background-color: $white;
+    background-image: none;
+    top: -50px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    color: $white;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 23px 4px $ubc-blue;
+    z-index: 1;
+  }
+  .intro-flex{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    flex-direction: column; 
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 40px;
+    top: -50px;
+    height: 800px;
+    padding: 0px;
+    z-index: 2;
+  }
+  .main-title {
+    font-size: 42px;
+    font-family: $font-family-serif;
+  }
+  .title-authors-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .authors {
+    font-size: 24px;
+  }
+  .upper {
+    font-size: 18px;
+  }
+  .upper img {
+    height: 60px;
+    width: auto;
+  }
+  .lower {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+.reveal section.intro-slide h1{
+  display: none;
+}
+
+//Main Slide Type
+.reveal .mst {
+  background-image: none;
+  background-color: $white;
+  h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: $ubc-blue;
+  }
+  strong {
+    font-size: 28px;
+    font-weight: bold;
+    color: $ubc-blue;
+  }
+  p {
+    font-size: 24px;
+    font-weight: normal;
+    color: $ubc-blue;
+  }
+  ul, ol, li {
+    font-size: 24px;
+    font-weight: normal;
+    color: $ubc-blue;
+    text-indent: 10px;
+  }
+}
+
+//Subsection slide: COPY SLIDE FOR DIFFERENT IMAGES
+.reveal .subsection1 {
+  background-image: url("images/subsection1.jpg");
+  background-color: $ubc-blue;
+  background-size: cover;
+  background-position-y: center;
+}
+.reveal section.subsection1 h1{
+  display: none;
+}
+
+//Subsection title: NO NEED TO COPY
+.subsection-title {
+  background-color: $white;
+  background-image: none;
+  color: $ubc-blue;
+  font-weight: bold;
+  text-align: center;
+  font-family: $font-family-serif;
+  font-size: 42px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 0 23px 4px $ubc-blue;
+
+}
+
+//Thanks slide
+.reveal .cst {
+  background-image: none;
+  background-color: $white;
+  h1 {
+    display: block;
+    font-size: 42px !important;
+    font-weight: bold;
+    color: $ubc-blue;
+  }
+  p {
+    font-size: 24px;
+    font-weight: normal;
+    color: $ubc-blue;
+  }
+}

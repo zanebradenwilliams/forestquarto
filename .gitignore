@@ -1,0 +1,9 @@
+.quarto/
+_site/
+docs/
+site_libs/
+*.download
+.Rproj.user/
+.Rhistory
+*.Rproj
+/.quarto/

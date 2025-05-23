@@ -1,0 +1,4 @@
+project:
+  title: "UBC Presentation Template"
+  type: website
+  output-dir: .
