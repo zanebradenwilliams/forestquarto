@@ -1,4 +1,4 @@
-# forestquarto
+# Forest Template
 
 This is a Quarto revealjs presentation template for public use.
 
