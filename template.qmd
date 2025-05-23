@@ -2,7 +2,7 @@
 format: 
   revealjs:
     include-in-header: styles/fonts.html
-    theme: [default, styles/UBC.scss]
+    theme: [default, styles/forest.scss]
     self-contained: true
     slide-number: true
     width: 960
@@ -22,13 +22,13 @@ editor: source
 <div class = "intro-flex">
 
 <div class = "upper">
-<img src="images/UBC-logo.png" alt="UBC Official Logo">
+Organization Name or Logo
 </div>
 
 <div class = "title-authors-flex">
 
 <div class = "main-title">
-UBC Presentation Template
+Forest Quarto<br>Presentation Template
 </div>
 
 <div class = "authors">
@@ -47,7 +47,7 @@ Date | Location
 
 **Template Purpose**
 
-The goal of this document is to provide a helpful, easily editable template for UBC students, staff, and faculty. Several presentation slide classes are available.
+The goal of this document is to provide a helpful, easily editable quarto presentation template. Several presentation slide classes are available.
 
 This is an example of a `.mst` (Main Slide Type) class slide. Code can be visually represented using backticks: ``.
 
@@ -57,7 +57,7 @@ This template is a Quarto presentation. It should be edited through RStudio.
 
 I would strongly recommend using `editor: source` rather than `editor: visual`. Managing classes becomes very clunky in RStudio's visual editor.
 
-## Roadmap {.mst}
+## Elements and Lists {.mst}
 
 This is another example of a `.mst` class slide. Since the `.qmd` document is all Markdown (with some HTML to help with style!), slides can be edited quickly.
 

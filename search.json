@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "template.html#template-overview",
+    "href": "template.html#template-overview",
+    "title": "Forest Quarto Presentation Template",
+    "section": "Template Overview",
+    "text": "Template Overview\nTemplate Purpose\nThe goal of this document is to provide a helpful, easily editable quarto presentation template. Several presentation slide classes are available.\nThis is an example of a .mst (Main Slide Type) class slide. Code can be visually represented using backticks: ``.\nHow to Edit\nThis template is a Quarto presentation. It should be edited through RStudio.\nI would strongly recommend using editor: source rather than editor: visual. Managing classes becomes very clunky in RStudio’s visual editor."
+  },
+  {
+    "objectID": "template.html#elements-and-lists",
+    "href": "template.html#elements-and-lists",
+    "title": "Forest Quarto Presentation Template",
+    "section": "Elements and Lists",
+    "text": "Elements and Lists\nThis is another example of a .mst class slide. Since the .qmd document is all Markdown (with some HTML to help with style!), slides can be edited quickly.\nLists can be made with - Element or 1. Element.\nSubheading font can be designated with **Subheader**.\nTo make the blue section dividers, use &lt;div class = \"break\"&gt;&lt;br&gt;&lt;/div&gt;.\nOrdered List\n\nElement 1\nElement 2\n\n\n\n\nUnordered List\n\nElement 1\nElement 2"
+  }
+]
