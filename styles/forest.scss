@@ -32,14 +32,11 @@ $transparent:  rgb(0 0 0 / 0%);
   font-family: $font-family-serif;
   color: $cprimary;
 }
-.reveal a, code {
-  color: $csecondary !important;
-}
 .reveal .break{
   height: 4px;
   width: 50vw;
   color: $ctertiary;
-  background-color:$ctertiary
+  background-color: $ctertiary;
 }
 .reveal .slides {
  width: 960px !important;
@@ -61,9 +58,14 @@ $transparent:  rgb(0 0 0 / 0%);
   padding-top: 30px;
   padding-bottom: 30px;
   box-shadow: 0 0 23px 4px $black;
-
 }
-
+.reveal .progress {
+  color: $cprimary;
+  background-color: $ctertiary;
+}
+.reveal .slide-menu-button .fa-bars::before {
+  background-image: url("images/menu_button.svg") !important;
+}
 
 // Title Slide
 .reveal .intro-slide {
@@ -136,6 +138,12 @@ $transparent:  rgb(0 0 0 / 0%);
   .upper, .main-title, .authors, .lower{
     margin-left: 50px !important;
   }
+  .slide-number-a, .slide-number-b, .slide-number-delimiter, .fa-bars {
+    color: $white !important;
+  }
+  a, code {
+    color: $csecondary !important;
+  }
 }
 .reveal section.intro-slide h1{
   display: none;
@@ -166,6 +174,12 @@ $transparent:  rgb(0 0 0 / 0%);
     color: $cprimary;
     text-indent: 10px;
   }
+  .slide-number-a, .slide-number-b, .slide-number-delimiter {
+    color: $cprimary !important;
+  }
+  a, code {
+    color: $csecondary !important;
+  }
 }
 
 //Subsection slide: COPY SLIDE FOR DIFFERENT IMAGES
@@ -174,6 +188,9 @@ $transparent:  rgb(0 0 0 / 0%);
   background-color: $cprimary;
   background-size: cover;
   background-position-y: center;
+  .slide-number-a, .slide-number-b, .slide-number-delimiter {
+    color: $white !important;
+  }
 }
 .reveal section.subsection1 h1{
   display: none;
@@ -193,5 +210,11 @@ $transparent:  rgb(0 0 0 / 0%);
     font-size: 24px;
     font-weight: normal;
     color: $cprimary;
+  }
+  .slide-number-a, .slide-number-b, .slide-number-delimiter {
+    color: $cprimary !important;
+  }
+  a, code {
+    color: $csecondary !important;
   }
 }
