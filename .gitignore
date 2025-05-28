@@ -7,6 +7,6 @@ site_libs/
 .Rhistory
 *.Rproj
 /.quarto/
-.html
-.pdf
-.json
+*.html
+*.pdf
+*.json
