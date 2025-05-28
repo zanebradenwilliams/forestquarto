@@ -57,7 +57,7 @@ $transparent:  rgb(0 0 0 / 0%);
   right: 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  box-shadow: 0 0 23px 4px $black;
+  box-shadow: 0 0 5px 4px $black;
 }
 .reveal .progress {
   color: $cprimary;
@@ -65,6 +65,11 @@ $transparent:  rgb(0 0 0 / 0%);
 }
 .reveal .slide-menu-button .fa-bars::before {
   background-image: url("images/menu_button.svg") !important;
+  box-shadow: 0 0 4px $black;
+  border-radius: 25px;
+}
+.reveal a:hover {
+  color: $ctertiary;
 }
 
 // Title Slide
@@ -138,11 +143,8 @@ $transparent:  rgb(0 0 0 / 0%);
   .upper, .main-title, .authors, .lower{
     margin-left: 50px !important;
   }
-  .slide-number-a, .slide-number-b, .slide-number-delimiter, .fa-bars {
+  .slide-number-a, .slide-number-b, .slide-number-delimiter {
     color: $white !important;
-  }
-  a, code {
-    color: $csecondary !important;
   }
 }
 .reveal section.intro-slide h1{
